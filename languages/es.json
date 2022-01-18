@@ -1,0 +1,14 @@
+{
+    "profile" : {
+        "rol": "Desarrollador Front End ",
+        "description": "mas de 7 años de experiencia en desarrollo web. apasionado por la tecnolologia y amante de las finanzas"
+    },
+    "experience" : {
+        "first-job-title" : "Desarrolador Back End ",
+        "first-job-date" : "enero 1995 - dicimbre 2016 ",
+        "first-job-description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad minima consectetur suscipit sit cupiditate"
+    }
+
+
+}
+
