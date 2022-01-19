@@ -88,6 +88,7 @@ body.dark{
 .flag_img{
     display: block;
     cursor: pointer;
+    border-radius: 40%;
 }
 .colors{
     display: flex;
@@ -102,6 +103,7 @@ body.dark{
     width: 20px;
     height: 20px;
     border: 1px solid var(--text-color);
+    border-radius: 50%;
     background-color: var(--primary-color);
     cursor: pointer;
 }
@@ -163,6 +165,7 @@ body.dark{
 
 .card__image_profile-main{
     border-radius: 30%;
+    border:1px solid var(--primary-color);
 
 }
 .card_title{
