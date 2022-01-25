@@ -4,6 +4,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --border-radius: 0.4em;
+    --border-radius1: 10%;
     --bg-card-color: hsl(0, 0%, 98%);
     --transition: color 0.2s, background-color 0.3s ease-in-out;
     --skills-bar-length: 0%;
@@ -159,8 +160,10 @@ body.dark{
 
 .card_image-container{
     min-width: 320px;
-    border: 1px solid gray;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius1);
     overflow: hidden;
+
 }
 
 .card__image_profile-main{
@@ -168,6 +171,8 @@ body.dark{
     border:1px solid var(--primary-color);
 
 }
+
+
 .card_title{
         margin: 0;
         margin-bottom: 1em;
@@ -306,6 +311,7 @@ body.dark{
     display: flex;
     justify-content:space-between;
     margin: .5em 0;
+    border-radius: var(--border-radiu);
     font-size: 0.6rem;
     width: 275px;
 }
